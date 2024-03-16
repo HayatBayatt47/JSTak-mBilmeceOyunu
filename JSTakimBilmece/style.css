@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    flex-direction: column;
+}
+
+#kartlar {
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+
+#btnKontrol {
+    width: 120px;
+    height: 40px;
+    border-radius: 20px;
+    transition: 0.3s ease;
+}
+
+#btnKontrol:hover {
+    background-color: black;
+    color: white;
+}
+
+#girdi {
+    width: 160px;
+    height: 40px;
+    border-radius: 20px;
+    transition: 0.3s ease;
+}
+
+#girdi:hover {
+    background-color: black;
+    color: white;
+}
+
+#btnBaslatici {
+    background-color: red;
+    color: black;
+    width: 100px;
+    height: 30px;
+    cursor: pointer;
+}
+
+#kapsayici {
+    display: flex;
+    gap: 5px;
+}
